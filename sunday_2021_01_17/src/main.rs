@@ -97,6 +97,15 @@
 
 
 ///// chapter 19.1 unsafe rust ////////////
+
+// THINGS WE CAN DO USING UNSAFE RUST////////
+// Dereference a raw pointer
+// Call an unsafe function or method
+// Access or modify a mutable static variable
+// Implement an unsafe trait
+// Access fields of unions
+
+
 fn main(){
     let mut num  = 5;
     let r1 = &num as *const i32;
